@@ -5,4 +5,5 @@ app_name = 'common'
 
 urlpatterns = [
     path('', views.master, name="master"),
+    path('', views.index, name="index"),
 ]
